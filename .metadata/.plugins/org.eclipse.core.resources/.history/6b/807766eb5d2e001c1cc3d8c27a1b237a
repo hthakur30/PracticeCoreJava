@@ -1,0 +1,7 @@
+package com.cdac;
+
+public class Second {
+	Main ob3 = new Main();
+	System.out.println("First "+ ob3);
+	
+}

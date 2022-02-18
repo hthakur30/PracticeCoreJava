@@ -1,0 +1,11 @@
+package com.cdac;
+
+public class Second {
+int x =5;
+
+
+public void sendMe() {
+	System.out.println("Inside sendMe Method");
+}
+
+}

@@ -1,0 +1,6 @@
+package com.cdac;
+
+public class Second {
+	Main ob3 = new Main();
+system.out.println("Inside Class Second "+ ob3);
+}

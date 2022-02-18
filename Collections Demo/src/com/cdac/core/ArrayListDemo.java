@@ -1,0 +1,43 @@
+package com.cdac.core;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class ArrayListDemo {
+
+	public ArrayListDemo() {
+		// TODO Auto-generated constructor stub
+		
+	}
+	public static void main(String[] args) {
+		ArrayList<String> list = new ArrayList<String>();
+	    list.add("Hemant");
+	    list.add("Debo");
+	    list.add("Jay");
+	    list.add("Pragati");
+	    System.out.println(list);
+	    
+//	    Iterator itr = list.iterator();
+//	    while(itr.hasNext())
+//	    {
+//	    	System.out.println(itr.next());
+//	    }
+	    
+	    Collections.sort(list);
+	    
+	    for(String student:list)
+	    {
+	    	System.out.println(student);
+	    }
+	    
+	    System.out.println("element at index 3"+ list.get(3));
+	    list.set(2, "Jayprakash");
+	    
+	    for(String studentNew:list)
+	    {
+	    	System.out.println(studentNew);
+	    }
+	}
+
+}

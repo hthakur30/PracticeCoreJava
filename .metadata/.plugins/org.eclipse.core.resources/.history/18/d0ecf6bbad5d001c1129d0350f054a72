@@ -1,0 +1,14 @@
+package com.cdac.core;
+
+public class ArrayVsLinkedList {
+
+	public ArrayVsLinkedList() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

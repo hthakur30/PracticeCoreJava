@@ -1,0 +1,14 @@
+package com.cdac;
+
+public class Second {
+int x =5;
+
+static void readMe() {
+	System.out.println("Inside static readMe Method");
+}
+
+public void sendMe() {
+	System.out.println("Inside sendMe Method");
+}
+
+}
